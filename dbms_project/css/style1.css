@@ -1,0 +1,97 @@
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header {
+    padding: 30px 0;
+    height: 120px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+  }
+  
+  #header.header-scrolled {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+    height: 95px;
+    transition: all 0.5s;
+  }
+  
+  #header {
+    float: left;
+  }
+  
+  #header #logo h1 {
+    font-size: 54px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  
+  #header #logo h1 a,
+  #header #logo h1 a:hover {
+      
+    color: #fff;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-top: 4px solid #FFF222;
+    border-left: 4px solid #FFF222;
+    border-bottom: 4px solid #FFF222;
+    border-right: 4px solid #FFF222;
+  }
+  
+  #header #logo img {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+
+#intro .btn-get-started1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 60px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 15px;
+    color: #fff;
+    background: #FF3E4D;
+  }
+
+  #intro .btn-get-started1:hover {
+    background: #fff;
+    color: #FF3E4D;
+  }
+
+
+  #intro .btn-get-started {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 72px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 15px;
+    color: #fff;
+    background: #18d26e;
+  }
+  
+  #intro .btn-get-started:hover {
+    background: #fff;
+    color: #18d26e;
+  }

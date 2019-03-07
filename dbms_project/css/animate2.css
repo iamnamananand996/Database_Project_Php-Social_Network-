@@ -1,0 +1,8 @@
+.animated1 {
+    animation-duration: 10s;
+    animation-fill-mode: both;
+  }
+
+  .animated1.infinite1 {
+    animation-iteration-count: infinite;
+  }
